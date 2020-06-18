@@ -1,6 +1,6 @@
 {
 "companyName": "DefaultCompany",
-"productName": "WebGL_TEST",
+"productName": "WebGL_Test3D",
 "dataUrl": "testapp.data.unityweb",
 "wasmCodeUrl": "testapp.wasm.code.unityweb",
 "wasmFrameworkUrl": "testapp.wasm.framework.unityweb",
