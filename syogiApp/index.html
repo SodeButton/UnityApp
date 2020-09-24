@@ -10,6 +10,12 @@
     <script src="Build/UnityLoader.js"></script>
     <script>
       var gameInstance = UnityLoader.instantiate("gameContainer", "Build/syogiApp.json", {onProgress: UnityProgress});
+  UnityLoader.SystemInfo.mobile = false;
+  var gameInstance = UnityLoader.instantiate(
+    "gameContainer",
+    "Build/syogiApp.json",
+    { onProgress: UnityProgress }
+  );
     </script>
   </head>
   <body>
